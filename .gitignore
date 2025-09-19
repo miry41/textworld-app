@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# venv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# TextWorldで生成されるゲームファイル
+games/*.ulx
+
+# ログ・キャッシュ
+*.log
+*.sqlite
